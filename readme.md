@@ -12,3 +12,6 @@
 - Adds beetroot as a breeding item for cows, sheep, goats, pigs, llamas.
 - Adds beetroot as a healing item for Horses, donkeys, mules.
 - Increases benefits of beetroot soup. Nutrition value of 10, Saturation 0.6.
+
+## Server-Side
+- Fun fact! This mod can run in a Fabric server without the client requiring the mod.
