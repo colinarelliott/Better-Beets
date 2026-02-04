@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "better-beets",
+  "version": "${version}",
+  "name": "Better-Beets",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/better-beets/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "rehdpanda.betterBeets.client.BetterBeetsDataGenerator"
+    ],
+    "client": [
+      "rehdpanda.betterBeets.client.BetterBeetsClient"
+    ],
+    "main": [
+      "rehdpanda.betterBeets.BetterBeets"
+    ]
+  },
+  "mixins": [
+    "better-beets.mixins.json",
+    {
+      "config": "better-beets.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
