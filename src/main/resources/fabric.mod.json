@@ -8,24 +8,14 @@
   "contact": {},
   "license": "All-Rights-Reserved",
   "icon": "assets/better-beets/icon.png",
-  "environment": "*",
+  "environment": "server",
   "entrypoints": {
-    "fabric-datagen": [
-      "rehdpanda.betterBeets.client.BetterBeetsDataGenerator"
-    ],
-    "client": [
-      "rehdpanda.betterBeets.client.BetterBeetsClient"
-    ],
     "main": [
       "rehdpanda.betterBeets.BetterBeets"
     ]
   },
   "mixins": [
-    "better-beets.mixins.json",
-    {
-      "config": "better-beets.client.mixins.json",
-      "environment": "client"
-    }
+    "better-beets.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
