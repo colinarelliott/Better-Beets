@@ -15,3 +15,5 @@
 
 ## Server-Side
 - Fun fact! This mod can run in a Fabric server without the client requiring the mod.
+
+Originally suggested by /u/somerandom995 on /r/MinecraftSuggestions
